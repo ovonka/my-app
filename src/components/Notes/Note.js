@@ -18,7 +18,7 @@ const Note = (props) => {
   const noteClickHandler = () => {
     toggleModal();
     setSelectedNote(note);
-  }
+  };
   return (
     <div>
       <div
@@ -65,8 +65,11 @@ const Note = (props) => {
 
             <span className="tooltip-text">Add Image</span>
           </div>
-          <div className="tooltip archive" >
-            <span className="material-icons-outlined hover small-icon" onClick={handleArchive}>
+          <div className="tooltip archive">
+            <span
+              className="material-icons-outlined hover small-icon"
+              onClick={handleArchive}
+            >
               archive
             </span>
             <span className="tooltip-text">Archive</span>

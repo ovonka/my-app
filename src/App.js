@@ -47,7 +47,7 @@ const App = () => {
   };
 
   return (
-    <div >
+    <div>
       <Navbar />
       <Sidebar />
       <Form addNote={addNote} />
@@ -57,7 +57,6 @@ const App = () => {
         toggleModal={toggleModal}
         setSelectedNote={setSelectedNote}
         setisModalOpen={setisModalOpen}
-
       />
       {isModalOpen && (
         <Modal

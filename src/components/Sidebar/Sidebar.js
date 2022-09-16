@@ -19,8 +19,9 @@ const Sidebar = () => {
       style={{ width: isSidebar ? "250px" : "80px" }}
     >
       <div
-        className={`sidebar-item active-item ${isSidebar ? "sidebar-active-item" : ""
-          }`}
+        className={`sidebar-item active-item ${
+          isSidebar ? "sidebar-active-item" : ""
+        }`}
       >
         <span className="material-icons-outlined hover active">lightbulb</span>
         <span className="sidebar-text">Notes</span>

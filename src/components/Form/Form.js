@@ -43,7 +43,7 @@ const Form = (props) => {
     setText("");
   };
   //OUTSIDE MODAL FORM CLOSE
-  const outsideFormClick = () => {
+  const outsideFormClick = (e) => {
     if (!edit) {
       addNote({
         id: uid(),
